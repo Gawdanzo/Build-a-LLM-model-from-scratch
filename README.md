@@ -1,4 +1,4 @@
-# `llm_pipeline.py` — A Unified, Research-Grade Mini-LLM Pipeline
+# `llm_pipeline.py` — A Unified, Mini-GPT Pipeline
 
 > A single-file, **reproducible** pipeline that goes end-to-end:  
 > **data processing → tokenizer → attention & Transformer → GPT training/eval → instruction-style fine-tuning → sampling**.  
