@@ -1,0 +1,22 @@
+[project]
+name = 'llm-lab'
+version = '0.1.0'
+description = 'Build and fine-tune Transformer/LLM models — research-ready'
+readme = 'README.md'
+requires-python = '>=3.9'
+license = {text = 'MIT'}
+authors = [{name='Your Name', email='you@example.com'}]
+
+[project.urls]
+homepage = 'https://github.com/ictup/Build-a-LLM-model'
+repository = 'https://github.com/ictup/Build-a-LLM-model'
+
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+select = ['E','F','I']
+
+[tool.pytest.ini_options]
+testpaths = ['tests']

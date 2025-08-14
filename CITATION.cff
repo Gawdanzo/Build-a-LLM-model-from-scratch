@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: Build-a-LLM-Model (Refined)
+message: If you use this repository, please cite it as below.
+authors:
+  - family-names: YourFamilyName
+    given-names: YourGivenNames
+    affiliation: Your University or Lab
+date-released: 2025-01-01
+version: '0.1.0'
+repository-code: 'https://github.com/ictup/Build-a-LLM-model'
