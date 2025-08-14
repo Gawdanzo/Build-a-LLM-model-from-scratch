@@ -8,8 +8,8 @@ license = {text = 'MIT'}
 authors = [{name='Your Name', email='you@example.com'}]
 
 [project.urls]
-homepage = 'https://github.com/ictup/Build-a-LLM-model'
-repository = 'https://github.com/ictup/Build-a-LLM-model'
+homepage = 'https://github.com/ictup/Build-a-LLM-model-from-scratch'
+repository = 'https://github.com/ictup/Build-a-LLM-model-from-scratch'
 
 [tool.black]
 line-length = 100
