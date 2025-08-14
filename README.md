@@ -118,9 +118,9 @@ A compact, dependency-free **byte-level** tokenizer keeps the repo self-containe
 ## 5) Attention & Transformer Blocks
 
 ### Scaled dot-product attention
-\[
+
 \mathrm{Att}(Q,K,V)=\mathrm{softmax}\!\left(\frac{QK^\top}{\sqrt{d_h}}\right)V,\quad d_h=\frac{n_{\text{embd}}}{n_{\text{head}}}.
-\]
+
 Implementation highlights (`CausalSelfAttention`):
 - `qkv = Linear(n_embd, 3*n_embd)` → reshape `(B, n_head, T, head_dim)`.
 - Complexity: **O(B · T² · n_embd)** (attention dominates).
