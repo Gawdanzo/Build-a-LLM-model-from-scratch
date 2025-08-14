@@ -5,6 +5,6 @@ authors:
   - family-names: Li
     given-names: Haojie
     affiliation: Chalmers
-date-released: 2025-01-01
+date-released: 2025-08-14
 version: '0.1.0'
 repository-code: 'https://github.com/ictup/Build-a-LLM-model-from-scratch'
